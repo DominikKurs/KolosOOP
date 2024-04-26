@@ -5,7 +5,11 @@ public class Polygon {
     private List<Point> points;
 
     public Polygon(List<Point> points){
-        this.points = points;
+        this.points = points;               //KONSTRUKTOR
+    }
+
+    public List<Point> getPoints() {
+        return points;
     }
 
     public double obliczDlugosc(Point x, Point y){
